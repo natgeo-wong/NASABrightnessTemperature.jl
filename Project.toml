@@ -1,0 +1,13 @@
+name = "NASABrightnessTemperature"
+uuid = "0a1892c8-8a22-4bcd-b9e2-a5b491b58d94"
+authors = ["Nathanael Wong <natgeo.wong@outlook.com>"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
